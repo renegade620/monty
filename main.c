@@ -26,6 +26,6 @@ int main(int argc, char *argc[])
 	}
 	monty();
 
-	free_op();
+	free_opcode();
 	return (EXIT_SUCCESS);
 }
