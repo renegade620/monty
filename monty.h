@@ -38,6 +38,9 @@ typedef struct instruction_s
 	void (*f)(stack_t **stack, unsigned int line_number);
 } instruction_t;
 
+void free_list(stack_t **stack);
+void free_opcode(void);
+
 /*opcode functions*/
 void monty_push(stack_t **stack, unsigned int line number);
 void monty_pall(stack_t **stack, unsigned int line number);
