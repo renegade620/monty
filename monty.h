@@ -40,11 +40,11 @@ typedef struct instruction_s
 
 /*opcode functions*/
 void monty_push(stack_t **stack, unsigned int line number);
-void monty_push(stack_t **stack, unsigned int line number);
-void monty_push(stack_t **stack, unsigned int line number);
-void monty_push(stack_t **stack, unsigned int line number);
-void monty_push(stack_t **stack, unsigned int line number);
-void monty_push(stack_t **stack, unsigned int line number);
-void monty_push(stack_t **stack, unsigned int line number);
+void monty_pall(stack_t **stack, unsigned int line number);
+void monty_pint(stack_t **stack, unsigned int line number);
+void monty_pop(stack_t **stack, unsigned int line number);
+void monty_swap(stack_t **stack, unsigned int line number);
+void monty_add(stack_t **stack, unsigned int line number);
+void monty_nop(stack_t **stack, unsigned int line number);
 
-#endi
+#endif
